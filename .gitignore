@@ -1,0 +1,10 @@
+node_modules
+test/tmp
+tmp
+
+*.d.ts
+*.d.ts.map
+*.js
+*.js.map
+
+!*.config.js
