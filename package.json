@@ -1,7 +1,7 @@
 {
   "name": "broccoli-merge-files",
   "description": "Broccoli plugin to merge multiple files into one or multiple files",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Jan Buschtöns <jan@buschtoens.me>",
   "main": "index.js",
   "license": "MIT",
