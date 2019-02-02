@@ -22,7 +22,7 @@ yarn add -D broccoli-merge-files
 ```ts
 const BroccoliMergeFiles = require('broccoli-merge-files');
 
-const mergedNode = new BroccoliMerge(inputNodes, {
+const mergedNode = new BroccoliMergeFiles(inputNodes, {
   merge: entries => JSON.stringify(Object.fromEntries(entries))
 });
 ```
@@ -73,7 +73,7 @@ const mergedNode = new BroccoliMerge(inputNodes, {
   module. You can do the same thing with `broccoli-merge-files` as well:
 
   ```js
-  new BroccoliMerge([inputNode], {
+  new BroccoliMergeFiles([inputNode], {
     merge: entries =>
       `export default ${JSON.stringify(Object.fromEntries(entries))};`,
     outputFile: 'files.js'
