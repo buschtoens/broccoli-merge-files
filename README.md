@@ -70,12 +70,20 @@ const mergedNode = new BroccoliMergeFiles(inputNodes, {
   merged tree. Does not merge any individual files.
 - **[`broccoli-flatiron`](https://github.com/buschtoens/broccoli-flatiron)**
   — Takes in a single input tree and merges all input files into a single JS
-  module. You can do the same thing with `broccoli-merge-files` as well:
+  module. Since this plugin is deprecated and not maintained any more,
+  `broccoli-merge-files` includes a compatibility util to do the same thing:
 
   ```js
+  const BroccoliMergeFiles = require('broccoli-merge-files');
+  const flatiron = require('broccoli-merge-files/flatiron');
+
   new BroccoliMergeFiles([inputNode], {
-    merge: entries =>
-      `export default ${JSON.stringify(Object.fromEntries(entries))};`,
-    outputFile: 'files.js'
+    merge: files =>
+      flatiron(files, {
+        // trimExtensions: false,
+        // prefix: 'export default ',
+        // suffix: ';'
+      }),
+    outputFileName: 'files.js'
   });
   ```

@@ -1,0 +1,9 @@
+FOO{
+  "one": {
+    "something.txt": "Something"
+  },
+  "three.txt": "Three",
+  "two": {
+    "other.txt": "Other"
+  }
+}BAR

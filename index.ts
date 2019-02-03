@@ -40,14 +40,14 @@ export enum DuplicateStrategy {
  * 0. Relative file path
  * 1. File contents
  */
-type File = [string, any];
+export type File = [string, any];
 
 /**
  * 0. Input node index
  * 1. Relative file path
  * 2. File contents
  */
-type Entry = [number, string, string | Buffer];
+export type Entry = [number, string, string | Buffer];
 
 /**
  * 0. Input node index
@@ -140,7 +140,7 @@ const DEFAULT_OPTIONS: Without<Options, RequiredOptions> = {
   sort: true
 };
 
-export default class BroccoliMerge extends Plugin {
+export default class BroccoliMergeFiles extends Plugin {
   private options: Options;
 
   constructor(

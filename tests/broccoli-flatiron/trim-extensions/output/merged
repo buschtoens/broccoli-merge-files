@@ -1,0 +1,9 @@
+export default {
+  "one": {
+    "something": "Something"
+  },
+  "three": "Three",
+  "two": {
+    "other": "Other"
+  }
+};
