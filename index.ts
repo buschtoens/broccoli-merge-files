@@ -3,9 +3,11 @@ import defaults from 'lodash.defaults';
 import fg from 'fast-glob';
 import pEvent, { Emitter } from 'p-event';
 import { resolve } from 'path';
-import { promises as fs } from 'fs';
+import { promisify } from 'util';
+import { readFile as _readFile, writeFile as _writeFile } from 'fs';
 
-const { readFile, writeFile } = fs;
+const readFile = promisify(_readFile);
+const writeFile = promisify(_writeFile);
 
 type Without<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>;
 
