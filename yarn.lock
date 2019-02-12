@@ -3324,10 +3324,10 @@ p-each-series@^1.0.0:
   dependencies:
     p-reduce "^1.0.0"
 
-p-event@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/p-event/-/p-event-2.3.0.tgz#cc8638f8c1a1fae6deb7502c5736873c14089647"
-  integrity sha512-Ozk+U8sfHFXFH/Fgx3dVAwXnzQfuCNfmBE3z4SxGBX7NCkohFp3HAR+TZqZPtEZ02ccugBARiLWqOKf96/kZGQ==
+p-event@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/p-event/-/p-event-2.3.1.tgz#596279ef169ab2c3e0cae88c1cfbb08079993ef6"
+  integrity sha512-NQCqOFhbpVTMX4qMe8PF8lbGtzZ+LCiN7pcNrb/413Na7+TRoe1xkKUzuWa/YEJdGQ0FvKtj35EEbDoVPO2kbA==
   dependencies:
     p-timeout "^2.0.1"
 
