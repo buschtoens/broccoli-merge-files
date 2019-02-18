@@ -20,7 +20,7 @@ yarn add -D broccoli-merge-files
 ## Usage
 
 ```ts
-const BroccoliMergeFiles = require('broccoli-merge-files');
+const { BroccoliMergeFiles } = require('broccoli-merge-files');
 
 const mergedNode = new BroccoliMergeFiles(inputNodes, {
   merge: entries => JSON.stringify(Object.fromEntries(entries))
@@ -74,7 +74,7 @@ const mergedNode = new BroccoliMergeFiles(inputNodes, {
   `broccoli-merge-files` includes a compatibility util to do the same thing:
 
   ```js
-  const BroccoliMergeFiles = require('broccoli-merge-files');
+  const { BroccoliMergeFiles } = require('broccoli-merge-files');
   const flatiron = require('broccoli-merge-files/flatiron');
 
   new BroccoliMergeFiles([inputNode], {

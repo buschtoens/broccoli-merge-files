@@ -142,7 +142,7 @@ const DEFAULT_OPTIONS: Without<Options, RequiredOptions> = {
   sort: true
 };
 
-export default class BroccoliMergeFiles extends Plugin {
+export class BroccoliMergeFiles extends Plugin {
   private options: Options;
 
   constructor(

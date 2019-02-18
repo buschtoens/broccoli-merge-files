@@ -1,5 +1,5 @@
 import { ReadableDir } from 'broccoli-test-helper';
-import BroccoliMergeFiles from '../../..';
+import { BroccoliMergeFiles } from '../../..';
 import flatiron from '../../../flatiron';
 
 export default (src: ReadableDir) =>

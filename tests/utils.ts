@@ -1,7 +1,7 @@
 import fg from 'fast-glob';
 import { resolve } from 'path';
 import { fromDir, ReadableDir } from 'broccoli-test-helper';
-import BroccoliMergeFiles from '../';
+import { BroccoliMergeFiles } from '../';
 
 interface Scenario {
   build: (src: ReadableDir) => BroccoliMergeFiles;

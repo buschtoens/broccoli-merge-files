@@ -1,5 +1,5 @@
 import { createBuilder, fromDir } from 'broccoli-test-helper';
-import BroccoliMergeFiles, { DuplicateStrategy } from '../../';
+import { BroccoliMergeFiles, DuplicateStrategy } from '../../';
 import { deepStrictEqual } from 'assert';
 
 const srcDir = fromDir('./input');
