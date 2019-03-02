@@ -178,10 +178,17 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-11.10.4.tgz#3f5fc4f0f322805f009e00ab35a2ff3d6b778e42"
   integrity sha512-wa09itaLE8L705aXd8F80jnFpxz3Y1/KRHfKsYL2bPc0XF+wEWu8sR9n5bmeu8Ba1N9z2GRNzm/YdHcghLkLKg==
 
-"@types/p-event@^1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@types/p-event/-/p-event-1.3.0.tgz#4af0869918751f75a51d78533d73e225bd1b13ba"
-  integrity sha512-Pp6w4bQdrAiIzi5JnO6AVh6Vq51RjD27DxyeKHqCgPrlfqYu3xPnCs3pdqCVIokEIVX7EbJMIGG0ctzFk5u9lA==
+"@types/p-cancelable@*":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@types/p-cancelable/-/p-cancelable-1.0.0.tgz#17373dc63c66f79b418311a60235944eb744f926"
+  integrity sha512-EO87xAv8kULqubh88UhjKSWsmYKGTEiRj5bJsBEkE1NF/HPLSko9kIcToX72eYXoNDozO/51X1pHE2TgAXG3GA==
+
+"@types/p-event@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@types/p-event/-/p-event-2.3.0.tgz#26b7845145e1d897d3cfd17a222649e8380ec602"
+  integrity sha512-u0tJIKS//EhA885WKm11I1yUrUiDDYUOYmq3a36M8mvCeAySm+64snTeN0Mi/iLy9djb2AWfA74ChpgUWwZQjA==
+  dependencies:
+    "@types/p-cancelable" "*"
 
 "@types/tmp@^0.0.33":
   version "0.0.33"
