@@ -161,10 +161,10 @@
   dependencies:
     "@types/jest-diff" "*"
 
-"@types/lodash.defaults@^4.2.5":
-  version "4.2.5"
-  resolved "https://registry.yarnpkg.com/@types/lodash.defaults/-/lodash.defaults-4.2.5.tgz#f1b7662c4fde6f7b84531d5ff361d89ecf71c48a"
-  integrity sha512-j+89FDD3Rc+lOXL0i7xnY6WYw0LtjEEhbbLkeuQ9a5JaOVjiaIP/GjvXpSCgeuR2ZozQXgbVWRXFaMS1MSQn7g==
+"@types/lodash.defaults@^4.2.6":
+  version "4.2.6"
+  resolved "https://registry.yarnpkg.com/@types/lodash.defaults/-/lodash.defaults-4.2.6.tgz#4ac29d3dd80a42803397076600f5b129f4aef911"
+  integrity sha512-JsUJheQIG2Yf/n/QRUMGXT76/7x4tLU5i0kxIPeoOcTIh9yNzdEzCHWbwD8mTf+VncGwYZiho+F2u1pEBsGswA==
   dependencies:
     "@types/lodash" "*"
 
