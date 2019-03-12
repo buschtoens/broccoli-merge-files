@@ -68,6 +68,10 @@ const mergedNode = new BroccoliMergeFiles(inputNodes, {
 - **[`broccoli-merge-trees`](https://github.com/broccolijs/broccoli-merge-trees)**
   — Copies multiple trees of files on top of each other, resulting in a single
   merged tree. Does not merge any individual files.
+- **[`broccoli-multifilter`](https://github.com/broccolijs/broccoli-multifilter)**
+  — A mix of [`broccoli-filter`](https://github.com/broccolijs/broccoli-filter) and
+  `broccoli-merge-files`. If you can provide a declarative, static m-to-n file
+  mapping up front, use this plugin instead, since it allows better caching.
 - **[`broccoli-flatiron`](https://github.com/buschtoens/broccoli-flatiron)**
   — Takes in a single input tree and merges all input files into a single JS
   module. Since this plugin is deprecated and not maintained any more,
