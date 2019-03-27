@@ -1310,18 +1310,21 @@ eslint-plugin-prettier@^3.0.1:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-eslint-plugin-unicorn@^7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-7.1.0.tgz#9efef5c68fde0ebefb0241fbcfa274f1b959c04e"
-  integrity sha512-lW/ZwGR638V0XuZgR160qVQvPtw8tw3laKT5LjJPt+W+tN7kVf2S2V7x+ZrEEwSjEb3OiEzb3cppzaKuYtgYeg==
+eslint-plugin-unicorn@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-8.0.0.tgz#62d5a1f7ab492e470f32eeccec861b3c0ddcd56a"
+  integrity sha512-CcGWxyj7cGWDHhu7DEWHf361yKg+WMbXbAsbfQdfslbi3gjCTUlwmPD8maGyCz98rA6IN+C8DA+Hjb9p8vufuA==
   dependencies:
     clean-regexp "^1.0.0"
     eslint-ast-utils "^1.0.0"
     import-modules "^1.1.0"
     lodash.camelcase "^4.1.1"
+    lodash.defaultsdeep "^4.6.0"
     lodash.kebabcase "^4.0.1"
     lodash.snakecase "^4.0.1"
+    lodash.topairs "^4.3.0"
     lodash.upperfirst "^4.2.0"
+    reserved-words "^0.1.2"
     safe-regex "^2.0.1"
 
 eslint-restricted-globals@^0.1.1:
@@ -2908,6 +2911,11 @@ lodash.defaults@^4.2.0:
   resolved "https://registry.yarnpkg.com/lodash.defaults/-/lodash.defaults-4.2.0.tgz#d09178716ffea4dde9e5fb7b37f6f0802274580c"
   integrity sha1-0JF4cW/+pN3p5ft7N/bwgCJ0WAw=
 
+lodash.defaultsdeep@^4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/lodash.defaultsdeep/-/lodash.defaultsdeep-4.6.0.tgz#bec1024f85b1bd96cbea405b23c14ad6443a6f81"
+  integrity sha1-vsECT4WxvZbL6kBbI8FK1kQ6b4E=
+
 lodash.get@^4.4.2:
   version "4.4.2"
   resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
@@ -2927,6 +2935,11 @@ lodash.sortby@^4.7.0:
   version "4.7.0"
   resolved "https://registry.yarnpkg.com/lodash.sortby/-/lodash.sortby-4.7.0.tgz#edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
   integrity sha1-7dFMgk4sycHgsKG0K7UhBRakJDg=
+
+lodash.topairs@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/lodash.topairs/-/lodash.topairs-4.3.0.tgz#3b6deaa37d60fb116713c46c5f17ea190ec48d64"
+  integrity sha1-O23qo31g+xFnE8RsXxfqGQ7EjWQ=
 
 lodash.unescape@4.0.1:
   version "4.0.1"
@@ -3817,6 +3830,11 @@ requireindex@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/requireindex/-/requireindex-1.2.0.tgz#3463cdb22ee151902635aa6c9535d4de9c2ef1ef"
   integrity sha512-L9jEkOi3ASd9PYit2cwRfyppc9NoABujTP8/5gFcbERmo5jUoAKovIC3fsF17pkTnGsrByysqX+Kxd2OTNI1ww==
+
+reserved-words@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/reserved-words/-/reserved-words-0.1.2.tgz#00a0940f98cd501aeaaac316411d9adc52b31ab1"
+  integrity sha1-AKCUD5jNUBrqqsMWQR2a3FKzGrE=
 
 resolve-cwd@^2.0.0:
   version "2.0.0"
