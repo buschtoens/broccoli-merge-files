@@ -45,7 +45,7 @@
     "@types/lodash.defaults": "^4.2.6",
     "@types/node": "^13.1.8",
     "@types/p-event": "^1.3.0",
-    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/eslint-plugin": "^2.17.0",
     "@typescript-eslint/parser": "^2.17.0",
     "broccoli-test-helper": "^2.0.0",
     "eslint": "^5.16.0",
