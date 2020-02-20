@@ -35,7 +35,7 @@
   ],
   "dependencies": {
     "broccoli-plugin": "^2.1.0",
-    "fast-glob": "^2.2.7",
+    "fast-glob": "^3.2.1",
     "lodash.defaults": "^4.2.0",
     "p-event": "^2.3.1"
   },
