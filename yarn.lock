@@ -430,10 +430,12 @@
   resolved "https://registry.yarnpkg.com/@types/normalize-package-data/-/normalize-package-data-2.4.0.tgz#e486d0d97396d79beedd0a6e33f4534ff6b4973e"
   integrity sha512-f5j5b/Gf71L+dbqxIpQ4Z2WlmI/mPJ0fOkGGmFgtb6sAu97EPczzbS3/tJKxmcYDj55OX6ssqwDAWOHIYDRDGA==
 
-"@types/p-event@^1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@types/p-event/-/p-event-1.3.0.tgz#4af0869918751f75a51d78533d73e225bd1b13ba"
-  integrity sha512-Pp6w4bQdrAiIzi5JnO6AVh6Vq51RjD27DxyeKHqCgPrlfqYu3xPnCs3pdqCVIokEIVX7EbJMIGG0ctzFk5u9lA==
+"@types/p-event@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@types/p-event/-/p-event-3.0.0.tgz#4deb10107a23854a3f8c103aa9bff52562d59410"
+  integrity sha512-zNdBlwtU8Ri2sJZI7YStzxUc8oG2X4mmQqY9cSyo7kj/tuuKKq5AnBRQg62cQ+lrrfsklpFS6BdIcUG4QtIp6A==
+  dependencies:
+    p-event "*"
 
 "@types/stack-utils@^1.0.1":
   version "1.0.1"
@@ -3682,6 +3684,13 @@ p-each-series@^1.0.0:
   integrity sha1-kw89Et0fUOdDRFeiLNbwSsatf3E=
   dependencies:
     p-reduce "^1.0.0"
+
+p-event@*:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/p-event/-/p-event-4.1.0.tgz#e92bb866d7e8e5b732293b1c8269d38e9982bf8e"
+  integrity sha512-4vAd06GCsgflX4wHN1JqrMzBh/8QZ4j+rzp0cd2scXRwuBEv+QR3wrVA5aLhWDLw4y2WgDKvzWF3CCLmVM1UgA==
+  dependencies:
+    p-timeout "^2.0.1"
 
 p-event@^2.3.1:
   version "2.3.1"
