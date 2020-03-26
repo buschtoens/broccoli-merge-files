@@ -55,9 +55,9 @@
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-unicorn": "^15.0.1",
-    "jest": "^24.9.0",
+    "jest": "^25.2.3",
     "prettier": "^1.19.1",
-    "ts-jest": "^24.3.0",
+    "ts-jest": "^25.2.1",
     "typescript": "^3.8.3"
   }
 }
