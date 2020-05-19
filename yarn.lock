@@ -420,10 +420,10 @@
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.121.tgz#9327e20d49b95fc2bf983fc2f045b2c6effc80b9"
   integrity sha512-ORj7IBWj13iYufXt/VXrCNMbUuCTJfhzme5kx9U/UtcIPdJYuvPDUAlHlbNhz/8lKCLy9XGIZnGrqXOtQbPGoQ==
 
-"@types/node@^13.9.4":
-  version "13.9.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.9.4.tgz#63c58e67999bfbfa688dd49ed84639b01b543606"
-  integrity sha512-uzaaDXey/NI2l7kU+xCgWu852Dh/zmf6ZKApc0YQEQpY4DaiZFmLN29E6SLHJfSedj3iNWAndSwfSBpEDadJfg==
+"@types/node@^14.0.4":
+  version "14.0.4"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.4.tgz#43a63fc5edce226bed106b31b875165256271107"
+  integrity sha512-k3NqigXWRzQZVBDS5D1U70A5E8Qk4Kh+Ha/x4M8Bt9pF0X05eggfnC9+63Usc9Q928hRUIpIhTQaXsZwZBl4Ew==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
